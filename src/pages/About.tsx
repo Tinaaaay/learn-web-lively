@@ -100,6 +100,45 @@ const About = () => {
         </div>
       </section>
 
+      {/* Creator Section */}
+      <section className="py-24 bg-muted/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-heading font-bold text-foreground mb-6">
+              About the Creator
+            </h2>
+          </div>
+          
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="flex-shrink-0">
+              <img 
+                src="/lovable-uploads/ace2f37e-ece4-45d6-8bab-8673a2091c34.png" 
+                alt="Kristine Joy Nisurtado"
+                className="w-64 h-64 object-cover rounded-2xl shadow-lg"
+              />
+            </div>
+            <div className="flex-1 text-center lg:text-left">
+              <h3 className="text-3xl font-heading font-bold text-foreground mb-4">
+                Kristine Joy Nisurtado
+              </h3>
+              <p className="text-xl text-primary font-medium mb-6">
+                BSIT - 41
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                As the creator and owner of WebLearn, I'm passionate about making web development 
+                accessible to everyone. With a background in Information Technology, I understand 
+                the challenges that beginners face when starting their web development journey.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                This platform represents my commitment to providing clear, comprehensive, and 
+                practical learning resources that help aspiring developers build their skills 
+                step by step.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Approach Section */}
       <section className="py-24 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
